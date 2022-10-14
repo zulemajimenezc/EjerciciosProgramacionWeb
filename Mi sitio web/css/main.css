@@ -4,22 +4,23 @@ a{
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
+    background-color: #FFF;
+    color: #afafaf;
 }
-
 #cubierta{
     width: 940px;
-    margin: 0px 15px 0px 15px;
-    background-color: blue;
-    padding: 0px 15% 0px 15%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #cdebfc;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
-header{
-    float: left;
-    margin: 0px 0px 30px 0px;
-    padding: 5px 0 0 0;
-    width: 100%;
 
-}
 #logo{
     text-align: center;
     margin: 0%;
@@ -28,25 +29,16 @@ header{
 header{
     background-color: #98A8F8;
     border-style: groove;
-    border-color: #905E96;
+    border-color: #FAF7F0;
     border-radius: 30px;
+    float: left;
+    margin: 0px 0px 30px 0px;
+    padding: 5px 0 0 0;
+    width: 100%;
 }
 
 h1,h2{
     color: #FFF;
-}
-
-nav a, nav a:visited{
-    color: #FFF;
-}
-
-nav a.selected, nav a:hover{
-	color: orange;
-}
-
-body{
-    background-color: #FFF;
-    color: #808080;
 }
 
 h1{
@@ -65,11 +57,38 @@ h2{
 
 /* NAVEGACION */
 
+nav a, nav a:visited{
+    color: #FFF;
+}
+
+nav a.selected, nav a:hover{
+	color: #48eff5;
+}
+
 nav{
     text-align: center;
     padding: 10px 0;
     margin: 20px 0 0;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
+
+nav ul{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px;
+}
+
+nav li{
+    display: inline-block;
+}
+
 /* PIE DE PAGINA */
 footer{
     font-size: 0.75em;
@@ -80,10 +99,12 @@ footer{
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 
 }
-
+/* 
+GALERIA
+*/
 
 #galeria{
     margin: 0;
@@ -95,8 +116,8 @@ img{
 	float: left;
 	width: 45%;
 	margin: 2.5%;
-	background-color: #D61C4E;
-	color: #1CD6CE;
+	background-color: #FAF7F0;
+	color: #BCCEF8;
 }
 
 #galeria li a p{
@@ -106,21 +127,7 @@ img{
     color: #1CD6CE;
 }
 
-nav ul{
-    list-style: none;
-    margin: 0 10 0 10;
-    padding: 0;
-}
-
-nav li{
-    display: inline-block;
-}
-nav{
-    width: 800;
-    padding: 15px 8px 15px 8px;
-}
-
-#icono-social{
+.icono-social{
     width: 20px;
     height: 20px;
     margin: 0 5px 0 5px;
