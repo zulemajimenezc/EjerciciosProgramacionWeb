@@ -1,0 +1,67 @@
+/* Diseño de dos columnas */
+
+@media screen and(min-width:480px){
+    #primero{
+        width: 50%;
+        float: left;
+    }
+
+    #segundo{
+        width: 40%;
+        float: right;
+    }
+    
+}
+
+/* pag galery */
+#galeria li{
+    width: 28.3333%;
+}
+
+#galeria li:nth-child(3n+1){
+    clear: left;
+}
+
+/* Pag about */
+.foto-perfil{
+    float: left;
+    margin-top: 0;
+    margin-bottom: 80px;
+    margin-left: 0;
+    margin-right: 5%;
+}
+
+
+/* Pag header */
+
+@media screen and(min-width:660px){
+    nav{
+        background: none;
+        float: right;
+        font-size: 1.125em;
+        margin-right: 5%;
+        text-align: right;
+        width: 45%;
+    }
+
+    #logo{
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+
+    h1{
+        font-size: 2.5em;
+    }
+
+    h2{
+        font-size: 0.825em;
+        margin-bottom: 20px;
+    }
+
+    header{
+        border-bottom: palevioletred 5px solid;
+        margin-bottom: 60px;
+    }
+}

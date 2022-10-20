@@ -6,10 +6,10 @@ a{
 body{
     font-family: 'Open Sans';
     background-color: #FFF;
-    color: #afafaf;
+    color: #424040;
 }
 #cubierta{
-    width: 940px;
+    width: 88%;
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 15px;
@@ -131,4 +131,41 @@ GALERIA
     width: 20px;
     height: 20px;
     margin: 0 5px 0 5px;
+}
+.foto-perfil{
+    display: block;
+    max-width: 155px;              
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 100%;  
+}
+
+info-contacto{
+    list-style: none;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+
+
+.info-contacto li.telefono a{
+    background-image:url('img/phone.png');
+}
+
+.info-contacto li.email a{
+    background-image:url('img/mail.png');
+}
+
+.info-contacto li.twitter a{
+    background-image:url('img/twitter.png');
+}
+.info-contacto a{
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
 }
